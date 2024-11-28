@@ -1,0 +1,64 @@
+/* What We Offer Section Styles */
+.what-we-offer-section {
+    padding: 60px 20px;
+    background-color: #ffffff; /* Light background for a clean look */
+  }
+  
+  .offer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .offer-container h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333; /* Dark gray for heading */
+    margin-bottom: 20px;
+  }
+  
+  .offer-container .offer-intro {
+    font-size: 14px;
+    color: #555; /* Medium gray for intro text */
+    margin-bottom: 40px;
+  }
+  
+  .offer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .offer-item {
+    background-color: #f9f9f9; /* Light gray background for cards */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .offer-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .offer-item img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .offer-item h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .offer-item p {
+    font-size: 16px;
+    color: #555;
+  }
+  

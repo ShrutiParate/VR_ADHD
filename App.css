@@ -1,0 +1,209 @@
+/* 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://your-image-url-here.jpg');
+  background-size: cover;
+  animation: moveBackground 20s linear infinite;
+}
+
+.App {
+  text-align: center;
+  color: #fff;
+}
+
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 14px 20px;
+  display: block;
+  transition: background 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+
+.container {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #FFD700;
+}
+
+p {
+  font-size: 1.5em;
+  color: white;
+}
+
+
+button {
+  background-color: #FF5733;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #C70039;
+}
+
+
+@keyframes moveBackground {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 100%; }
+}
+/*
+
+
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff; /* Light blue background */
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo h1 {
+  font-size: 35px; /* Bigger and bold font for VRJoy */
+  color: #133c5d; /* Catchy deep blue color */
+  font-weight: 900;
+  text-transform:capitalize ;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px; /* Adds spacing between menu items */
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #020a11; /* Slightly darker blue for links */
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar ul li a:hover {
+  background-color: #0047ab;
+  color: #fff;
+}
+
+/* Main content styles */
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.text-content {
+  max-width: 50%;
+  padding-right: 20px;
+}
+
+.text-content h2 {
+  font-size: 42px;
+  font-weight: bold;
+  color: #0047ab; /* Same deep blue for consistency */
+  margin-bottom: 20px;
+  line-height: 1.4;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.text-content p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.register-button {
+  background-color: #ff7f50; /* Coral color for standout effect */
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.register-button:hover {
+  background-color: #ff6347; /* Slightly darker coral on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Image content styles */
+.image-content img {
+  max-width: 500px; /* Adjust the width of the image */
+  border-radius: 15px; /* Rounded corners for the image */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a shadow to the image */
+}
